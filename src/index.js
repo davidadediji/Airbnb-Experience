@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './fonts/Poppins-Regular.ttf';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
