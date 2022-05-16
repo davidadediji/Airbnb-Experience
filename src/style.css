@@ -15,6 +15,16 @@ body {
   width:82.02px;
 }
 
+.gray{
+  color: #918E9B;
+
+}
+
+.bold{
+  font-weight: 500;
+}
+
+
 .nav-item{
   height:70px;
   display: flex;
@@ -30,6 +40,7 @@ section{
 .hero{
   display: flex;
   flex-direction: column;
+  padding-left: 36px;
 }
 
 .hero-img{
@@ -44,4 +55,29 @@ section{
 .hero-text{
   margin-top: 0;
   width: 320px;
+}
+
+
+.card{
+  width:176px;
+  margin-left: 36px;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.card-img{
+  width: 100%;
+}
+
+.card-star{
+  height: 14px;
+}
+
+.card-stat{
+  display: flex;
+  align-items: center;
+}
+
+.card p{
+  color:#222;
 }
