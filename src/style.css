@@ -40,7 +40,7 @@ section{
 .hero{
   display: flex;
   flex-direction: column;
-  padding-left: 36px;
+  margin-left: 36px;
 }
 
 .hero-img{
@@ -57,10 +57,16 @@ section{
   width: 320px;
 }
 
+.card-list{
+  display: flex;
+  gap: 20px;
+  margin-left: 36px;
+  flex-wrap:no-wrap;
+  overflow-x:auto;
+}
 
 .card{
   width:176px;
-  margin-left: 36px;
   font-size: 12px;
   line-height: 20px;
 }

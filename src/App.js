@@ -19,7 +19,10 @@ function App() {
     <div className="container">
       <Navbar />
       <Hero />
+      <section className="card-list">
       {CardElements}
+      </section>
+      
     </div>
   );
 }
